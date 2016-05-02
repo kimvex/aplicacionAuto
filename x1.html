@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>Scanner Mobil</title>
+	<script src="js/script.js"></script>
+	<script src="mdl/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="mdl/material.min.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+</head>
+<body>
+	<header class="menu-trans">
+		<button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+ 			 <i class="material-icons">more_vert</i>
+		</button>
+
+		<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
+  			<a href="index.html"><li class="mdl-menu__item">Inicio</li></a>
+  			<a href="Modelos.html"><li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Modelos</li></a>
+		</ul>
+		<h1>MOBIL SCANNER</h1>
+	</header>
+	<section class="contenido">
+		<h3>BMW X1</h3>
+		<img  class="coche" src="img/x1.jpg">
+		<article>
+			<button id="boton-analisis" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  		Analizar
+			</button>
+			<span>Estado del Análisis</span>
+			<label id="resultado" class="resultado kmv">
+				Inactivo
+			</label>
+		</article>
+	</section>
+	<footer class="pie">
+		<p>
+			| Desarrollado por el Equipo #4 |
+		</p>
+	</footer>
+	<div id="cargando" class="oculto">
+		<div class="preloader-wrapper big active centro">
+		  <div class="spinner-layer spinner-blue-only">
+		    <div class="circle-clipper left">
+		      <div class="circle"></div>
+		    </div><div class="gap-patch">
+		      <div class="circle"></div>
+		    </div><div class="circle-clipper right">
+		      <div class="circle"></div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
