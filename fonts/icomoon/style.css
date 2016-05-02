@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?kj95of');
+    src:    url('fonts/icomoon.eot?kj95of#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?kj95of') format('truetype'),
+        url('fonts/icomoon.woff?kj95of') format('woff'),
+        url('fonts/icomoon.svg?kj95of#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-inicio:before {
+    content: "\e900";
+}
+.icon-crear:before {
+    content: "\e901";
+}
+.icon-triunfador:before {
+    content: "\e902";
+}
+.icon-menu:before {
+    content: "\e903";
+}
+.icon-historias:before {
+    content: "\e904";
+}
+.icon-man-woman:before {
+    content: "\e905";
+}
+.icon-entrar:before {
+    content: "\e906";
+}
+.icon-salir:before {
+    content: "\e907";
+}
+
